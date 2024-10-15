@@ -7,7 +7,7 @@
 # If GIT_DIFF variable is set then it's used to test if a module has any file changes - if
 # it doesn't have any file changes then we will ignore the module tests.
 execute_mod_tests() {
-    go_mod=$1;
+    go_mod=$12;
     mod_dir=$(dirname "$go_mod");
     mod_dir=${mod_dir:2}; # remove "./" prefix
     root_dir=$(pwd);
