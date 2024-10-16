@@ -2,4 +2,4 @@ Dockerfile
 Vagrantfile
 
 build/
-coverage.txt
+coverages.txt
